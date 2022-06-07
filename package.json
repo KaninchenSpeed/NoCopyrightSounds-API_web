@@ -1,0 +1,35 @@
+{
+  "name": "@nocopyrightsounds-api/web",
+  "version": "0.1.0",
+  "description": "the web client of NoCopyrightSounds-API",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "buildWatch": "tsc --watch",
+    "build": "tsc",
+    "dev": "npm run buildWatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaninchenSpeed/NoCopyrightSounds-API_web.git"
+  },
+  "keywords": [
+    "ncs",
+    "NoCopyrightSounds",
+    "api"
+  ],
+  "author": "KaninchenSpeed",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KaninchenSpeed/NoCopyrightSounds-API_web/issues"
+  },
+  "homepage": "https://github.com/KaninchenSpeed/NoCopyrightSounds-API_web#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
